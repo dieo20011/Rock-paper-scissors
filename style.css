@@ -1,0 +1,57 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.move__icon {
+    height: 50px;
+}
+
+.move__button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.result {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.score {
+    margin-top: 50px;
+}
+
+.button__reset {
+    padding: 10px 30px 10px 30px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.auto-play-button{ 
+    padding: 10px 30px 10px 30px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
